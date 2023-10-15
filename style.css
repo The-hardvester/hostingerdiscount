@@ -3,7 +3,69 @@ section{
     top: 150px;
 }
 
+#card{
+    display: flex;
+    position: relative;
+    top: 320px;
+}
+
+.card{
+    margin: 0 auto;
+}
+.story{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.story ul{
+    margin-left: 35%;
+}
+
+.fix0{
+    position: relative;
+    bottom: 43px;
+    text-align: center;
+}
+.fix1{
+    position: relative;
+    bottom: 3px;
+    text-align: center;
+}
+
+.titleplan{
+    position: relative;
+   top: 280px;
+   text-align: center;
+}
 footer{
     position: relative;
-    top: 210px;
+    top: 429px;
 }
+
+@media (max-width: 576px){
+    #card{
+        display: block;
+        position: relative;
+        top: 320px;
+    }
+    .story ul{
+        margin-left: 0%;
+    }
+    .card{
+        margin: 90px auto;
+    }
+    .fix9{
+        display: none;
+    }
+    .fix3{
+        position: relative;
+        bottom: 28px;
+    }
+}
+
+@media (min-width: 1610px){
+    .story ul{
+        margin-left: 38%;
+    }
+  }
